@@ -1,12 +1,68 @@
-# React + Vite
+# 📺 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and visually appealing Netflix Clone built using **React**, **Vite**, and **Firebase**. It includes user authentication, movie thumbnails, trailers, and responsive UI — mimicking the look and feel of Netflix.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔥 Firebase Authentication (Sign Up / Sign In)
+- 🎥 Movie list sections with thumbnails
+- 🎞️ ReactPlayer for trailer previews
+- 💡 Protected routes for authenticated users
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (with Hooks)
+- ⚡ Vite (for fast build & dev)
+- 🔐 Firebase (Auth)
+- 🎬 TMDB API or custom data (based on your setup)
+- 💅 CSS or Tailwind CSS (based on your styling choice)
+
+---
+
+## Folder Structure
+
+📦 netflix-clone/
+├── 📁 public/
+│   └── index.html
+│
+├── 📁 src/
+│   ├── 📁 assets/                # Static assets (images, logos, icons, etc.)
+│   ├── 📁 components/            # Reusable UI components
+│   │   ├── 📁 Footer/
+│   │   │ 
+│   │   ├── 📁 Navbar/
+│   │   │  
+│   │   ├── 📁 TitleCards/
+│   │   │   
+│   │   │  
+│   │   └── index.js             
+│   │
+│   ├── 📁 pages/                 # Route-based pages
+│   │   ├── 📁 Home/
+│   │   │   
+│   │   ├── 📁 Login/
+│   │   │  
+│   │   ├── 📁 Player/
+│   │   │   
+│   │   └── index.js             # Optional: central export for pages
+│   │
+│   ├── 📁 config/               # Configuration files
+│   │   └── firebase.js
+│   │
+│   ├── index.css                # Global styles (if any)
+│   ├── main.jsx                 # Entry point
+│   └── App.jsx                  # Main app component
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+## 📂 Folder Structure (Simplified)
+
