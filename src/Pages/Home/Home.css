@@ -81,15 +81,6 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .hero-caption .title-cards {
-    display: none;
-  }
-  .hero-btns {
-    margin-bottom: 30px;
-  }
-}
-
 @media (max-width: 800px) {
   .hero-caption {
     padding-left: 4%;
