@@ -51,13 +51,11 @@ netflix-clone/
 ├── vite.config.js
 └── README.md
 
+
 ---
-## Clone the repo
-git clone https://github.com/your-username/netflix-clone.git
-cd netflix-clone
 
-# Install dependencies
-npm install
+## 🚀 Getting Started
 
-# Start dev server
-npm run dev
+### Clone the Repo
+
+```bash
