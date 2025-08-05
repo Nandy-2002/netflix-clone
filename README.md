@@ -24,45 +24,40 @@ A responsive and visually appealing Netflix Clone built using **React**, **Vite*
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
-📦 netflix-clone/
-├── 📁 public/
+```bash
+netflix-clone/
+├── public/
 │   └── index.html
-│
-├── 📁 src/
-│   ├── 📁 assets/                # Static assets (images, logos, icons, etc.)
-│   ├── 📁 components/            # Reusable UI components
-│   │   ├── 📁 Footer/
-│   │   │ 
-│   │   ├── 📁 Navbar/
-│   │   │  
-│   │   ├── 📁 TitleCards/
-│   │   │   
-│   │   │  
-│   │   └── index.js             
-│   │
-│   ├── 📁 pages/                 # Route-based pages
-│   │   ├── 📁 Home/
-│   │   │   
-│   │   ├── 📁 Login/
-│   │   │  
-│   │   ├── 📁 Player/
-│   │   │   
-│   │   └── index.js             # Optional: central export for pages
-│   │
-│   ├── 📁 config/               # Configuration files
+├── src/
+│   ├── assets/                # Static assets (images, logos, etc.)
+│   ├── components/            # Reusable UI components
+│   │   ├── Footer/
+│   │   ├── Navbar/
+│   │   └── TitleCards/
+│   ├── pages/                 # Route-based pages
+│   │   ├── Home/
+│   │   ├── Login/
+│   │   └── Player/
+│   ├── config/                # Configuration files
 │   │   └── firebase.js
-│   │
-│   ├── index.css                # Global styles (if any)
-│   ├── main.jsx                 # Entry point
-│   └── App.jsx                  # Main app component
-│
+│   ├── App.jsx                # Main component
+│   ├── main.jsx               # Entry point
+│   └── index.css              # Global styles
+├── .env                       # Environment variables (do not upload to GitHub)
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
 └── README.md
 
+---
+## Clone the repo
+git clone https://github.com/your-username/netflix-clone.git
+cd netflix-clone
 
-## 📂 Folder Structure (Simplified)
+# Install dependencies
+npm install
 
+# Start dev server
+npm run dev
