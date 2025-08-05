@@ -55,16 +55,16 @@ netflix-clone/
 ---
 
 ## 🚀 Run Locally
-# Clone the repository
+## Clone the repository
 git clone https://github.com/your-username/netflix-clone.git
 
-# Move into the project directory
+## Move into the project directory
 cd netflix-clone
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Start the development server
+## Start the development server
 npm run dev
 
 
